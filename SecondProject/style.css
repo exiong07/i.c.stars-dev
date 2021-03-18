@@ -41,7 +41,7 @@ body {
   justify-content: center;
   font: 500 1rem "Raleway", sans-serif;
   font-size: 20px;
-  height: 10vh;
+  height: 15vh;
 }
 .container {
   width: 400px;
@@ -139,4 +139,10 @@ img {
 }
 .mfglink:hover {
   text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #111;
+  color: #f1f1f1;
 }
