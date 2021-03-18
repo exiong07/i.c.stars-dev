@@ -18,6 +18,7 @@ body {
   margin: 0;
   height: 100vh;
   font: 500 1rem "Raleway", sans-serif;
+  align-items: center;
 }
 .welcome {
   display: flex;
@@ -31,7 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   font: 500 1rem "Raleway", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
 }
 .apology {
   background: linear-gradient(to left top, #111111, red);
@@ -40,7 +41,7 @@ body {
   justify-content: center;
   font: 500 1rem "Raleway", sans-serif;
   font-size: 20px;
-  height: 10vh;
+  height: 15vh;
 }
 .container {
   width: 400px;
@@ -124,4 +125,24 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.mfglink {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mfglink:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #111;
+  color: #f1f1f1;
 }
