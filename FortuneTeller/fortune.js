@@ -14,3 +14,5 @@ if (answer != null) {
 } else {
   alert("Please ask a question");
 }
+
+// This is a note to write a comment
