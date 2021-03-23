@@ -20,4 +20,3 @@ function fortuneAnswer() {
   }
 }
 fortuneAnswer();
-// This is a note to write a comment
