@@ -1,4 +1,4 @@
-let question = prompt("Ask a question");
+let question = prompt("Ask for your fortune");
 
 const answer = [
   "Unlikely",
