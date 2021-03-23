@@ -1,4 +1,7 @@
-let question = prompt("Ask for your fortune");
+function question() {
+  prompt("Ask for your fortune! 🤑💰🤑");
+}
+question();
 
 const answer = [
   "Unlikely",
